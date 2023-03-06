@@ -1,0 +1,64 @@
+.Footer {
+  color: white;
+  border-top: 4px solid rgb(197, 0, 250);
+  margin-top: 2vh;
+}
+.Footer-container-Logo {
+  margin-top: -40px;
+  margin-top: 10px;
+}
+
+.Footer-container-Logo > img {
+  width: 150px;
+}
+
+.Footer-container-Top {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  margin-top: 30px;
+}
+.Footer-container-Bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+
+.Footer-container-h4 {
+  background-color: rgb(197, 0, 250);
+  padding: 5px;
+}
+
+.Footer-container-Subscribe-to-Email > input {
+  background-color: black;
+  border: none;
+  width: 22vw;
+  border-radius: 12px;
+  height: 4vh;
+  color: white;
+}
+.Footer-container-Socials > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.Footer-container-Socials > ul > li {
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.Footer-container-Socials > ul > li:hover {
+  transform: scale(1.2);
+}
+li > a {
+  color: white !important;
+  text-decoration: none !important;
+}
+li > a:hover {
+  color: pink !important;
+}

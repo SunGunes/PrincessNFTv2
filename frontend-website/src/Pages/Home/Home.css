@@ -1,0 +1,7 @@
+.Home {
+  margin-top: 20px;
+}
+.Home > h2 {
+  color: white;
+  text-align: center;
+}
